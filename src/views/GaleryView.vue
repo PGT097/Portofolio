@@ -1,5 +1,6 @@
 <template>
-   <v-col cols="12" sm="12" id="galery">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
+  <v-col cols="12" sm="12" id="galery">
       <div class="d-flex justify-center mb-6">
         <v-btn color="#0092A5" class="mr-2">All</v-btn>
         <v-btn  class="mr-2" variant="tonal">Painting</v-btn>
@@ -27,7 +28,6 @@
     </v-col>
 
 </template>
-
 <script>
 export default {
     setup () {
@@ -48,6 +48,7 @@ export default {
         }
     }
 }
+
 </script>
 
 <style  scoped>

@@ -1,9 +1,10 @@
 <template>
+
   <v-col cols="12" id="services">
       <div class="pre">
         <v-row>
           <v-col cols="12" sm="4">
-            <v-card class="mw-auto" max-width="344" height="">
+            <v-card class="ms-auto" max-width="344" height="">
               <v-img src="painter1.png" height="200px" cover></v-img>
               <v-card-title>We provide you the best</v-card-title>
               <v-card-subtitle> 
@@ -59,12 +60,9 @@
 </template>
 
 <script>
-export default {
-    setup () {
-        
 
-        return {}
-    }
+export default {
+  
 }
 </script>
 
